@@ -1,0 +1,169 @@
+body,h1,h3,h2,h4,h5,h6,p,dl,dd,ul,ol,form,input,fieldset,th,td,iframe{margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:normal;}
+i,em{font-style:normal;}
+a{text-decoration:none; color:#666;}
+li{list-style:none;}
+img{border:none;vertical-align:top;}
+input{border:none;}
+a,input,area{outline:none;}
+body{font-size:14px; font-family:"微软雅黑";}
+body,html{width:100%;height:100%;}
+/* ------------------统一样式表--------------------*/
+
+    body{
+        background:#e6e2e2;
+    }
+    .top{
+        width:998px;
+        height:130px;
+        background:#efefef;
+        margin:0 auto;
+        h2{
+            height:130px;
+            text-align: center;
+            overflow:hidden;
+            span{
+                float:right;
+                margin-top:44px;
+                a{
+                    color:red;
+                }
+            }
+        }
+    }
+    .top h2>a{
+        display:block;
+        width:178px;
+        height:36px;
+        margin-top:44px;
+        float:left;
+        background:url("../imgmin/register.png") no-repeat -48px -27px;
+    }
+/*****************主体部分*********************/
+    #box{
+        width:998px;
+        height:964px;
+        margin:0 auto;
+        background:#fff;
+        overflow:hidden;
+        .boxp1{
+            height:40px;
+            width:100%;
+            text-align:center;
+            margin:44px 0 10px 0;
+            p{
+                width:330px;
+                height:44px;
+                background:#fff;
+                margin:0 auto;
+                span{
+                    display:inline-block;
+                    box-sizing:border-box;
+                    width:160px;
+                    height:40px;
+                    border:1px solid #666;
+                    float:left;
+                    text-align: center;
+                    line-height:40px;
+                    font-size:18px;
+                }
+            }
+        }
+    }
+    .boxp1>p>span:last-child i{
+        background:red;
+        font-size:12px;
+    }                              
+    .boxp1>p>span:hover{
+        border:0;
+        background:red;
+        color:#fff;
+    }
+    //主要内容区
+    form{
+        width:496px;
+        height:570px;
+        background:#fff;
+        margin:0 auto 0;
+        overflow:hidden;
+        p{
+            width:100%;
+            height:48px;
+            text-align:center;
+            margin-top:25px;
+            input{
+                width:320px;
+                height:44px;
+                border:1px solid #ccc;
+                float:left;
+                color:#ccc;
+            }
+            span{
+                float:left;
+                display:inline-block;
+                width:80px;
+                height:46px;
+                line-height:46px;
+                text-align: right;
+                font-size:16px;
+                font-weight: 500;
+            }
+        }
+    }
+    .zhbguop{
+        width:325px;
+        margin:0 auto;
+        background:#fff;
+        text-align: left;
+        font-size:12px;
+        line-height:24px;
+        a{
+            display:block;
+            color:red;
+            margin-top:5px;
+        }
+    }
+    .for1inp1{
+        margin:0;
+    }
+    .for1inp1>input:nth-child(2){
+        width:190px;
+    }
+   .for1inp1>input:nth-child(3){
+       width:120px;
+       height:46px;
+       color:plum;
+       font-size:18px;
+       margin-left:10px;
+       background:#c6e3f9;
+   }
+    .forsub{
+        width:324px;
+        height:45px;
+        background:red;
+        display:block;
+        margin-left:80px;
+        font-size:20px;
+        color:#fff;
+        letter-spacing: 10px;
+    }
+    .forbox0{
+        width:322px;
+        height:56px;
+         text-align: center;
+        margin-left:80px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

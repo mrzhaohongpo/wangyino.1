@@ -127,3 +127,13 @@ $(window).scroll(function(){
 		})
 	})
 })();
+//内容区图片动
+(function(){
+	$('.juzhbtao1 dl').children('dt').children('img').each(function(){
+		$(this).hover(function(){
+			$(this).stop().animate({'width':260,'height':260,'left':-10,'top':-10},'slow');
+		},function(){
+			$(this).stop().animate({'width':245,'height':245,'left':0,'top':0},'slow');
+		})
+	})
+})();

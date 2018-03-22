@@ -1,0 +1,306 @@
+body,h1,h3,h2,h4,h5,h6,p,dl,dd,ul,ol,form,input,fieldset,th,td,iframe{margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:normal;}
+i,em{font-style:normal;}
+a{text-decoration:none; color:#666;}
+li{list-style:none;}
+img{border:none;vertical-align:top;}
+input{border:none;}
+a,input,area{outline:none;}
+body{font-size:14px; font-family:"微软雅黑";}
+body,html{width:100%;height:100%;}
+/************统一样式表**************/
+
+
+    .nav .navli0{
+        border:0;
+        color:#000;
+    }
+    
+    #maizhb{
+        width:1090px;
+        height:auto;
+        background:#fff;
+        margin:0 auto;
+        clear:both;
+        border-top:1px solid #ccc;
+    }
+    h5{
+        height:50px;
+        line-height:50px;
+    }
+    .maizhbL{
+        width:524px;
+        height:432px;
+        background:#fff;
+        float:left;
+        position:relative;
+    }
+    .maizhbLimg{
+        width:430px;
+        height:430px;
+        float:left;
+        border:1px solid #B4A078;
+        margin-right:16px;
+        position:relative;
+        img{
+            width:100%;
+            height:100%;
+        }
+    }
+    .tou{
+        display:block;
+        width:430px;
+        height:430px;
+        background:#ccc;
+        opacity: 0;
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:3;
+    }
+    .concealdivmin{
+        width:230px;
+        height:230px;
+        background:palevioletred;
+        opacity: 0.3;
+        position:absolute;
+        left:0;
+        top:0;
+        display:none;
+    }
+    .concealdiv{
+        width:430px;
+        height:430px;
+        background:palevioletred;
+        position:absolute;
+        left:524px;
+        top:0;
+        z-index:2;
+        display:none;
+        overflow:hidden;
+        img{
+            width:870px;
+            height:870px;
+            position:absolute;
+            left:0;
+            top:0;
+        }
+    }
+    .maizhbL>ul{
+        width:76px;
+        height:100%;
+        float:left;
+        li{
+            width:76px;
+            height:76px;
+            margin-bottom:12px;
+            img{
+                height:100%;
+                width:100%;
+            }
+        }
+    }
+    .maizhbLmin5{
+        margin-bottom:0;
+    }
+    .maizhbR{
+        width:505px;
+        height:560px;
+        background:#fff;
+        float:right;
+    }
+    .maizhbR>p:first-child{
+        font-size:20px;
+        font-weight:500;
+        span{
+            display:inline-block;
+            width:80px;
+            height:20px;
+            background:#A69370;
+            border:1px solid #DEB35D;
+            font-size:12px;
+            text-align: center;
+            line-height:20px;
+            color:#fff;
+        }
+    }
+    .maizhbR>p:nth-child(2){
+        height:57px;
+        line-height:57px;
+        color:#999;
+    }
+    .maizhbRBox{
+        width:495px;
+        height:164px;
+        border-top:1px dashed green;
+        border-bottom:1px dashed green;
+        padding:20px 0 0 10px;
+        background:#f3ead9;
+        ul{
+            width:370px;
+            float:left;
+            li{
+                height:30px;
+                line-height:30px;
+                span{
+                    margin-right:25px;
+                }
+            }
+        }
+    }
+    .maizhbRBoxul li:nth-child(1) i{
+        color:#f93d3d;
+        font-size:18px;
+        font-weight:600;
+    }
+    .maizhbRBoxul li:nth-child(2) a{
+        color:#d82b33;
+        u{
+            display:inline-block;
+            background:#d82b33;
+            color:#fff;
+            text-decoration: none;
+        }
+    }
+    .maizhbRBoxR{
+        float:right;
+        width:56px;
+        height:34px;
+        text-align: center;
+        background:#f3ead9;
+        margin-right:20px;
+    }
+    .maizhbRBoxR+ol{
+        height:56px;
+        width:474px;
+        background:#f3ead9;
+        float:left;
+        border-top:1px dashed #999;
+        margin-top:5px;
+        padding-top:5px;
+        li{
+            height:100%;
+            span{
+                display:inline-block;
+                width:30px;
+                margin-right:25px;
+                float:left;
+            }
+            a{
+                display:inline-block;
+                float:left;
+                width:340px;
+            }
+        }
+    }
+    .maizhbRBoxR+ol a:hover{
+        text-decoration: underline;
+    }
+    .maizhbRp1{
+        height:52px;
+        line-height:52px;
+        padding-left:10px;
+        margin-top:20px;
+        span{
+            margin-right:25px;
+        }
+        a{
+            display:inline-block;
+            width:50px;
+            height:50px;
+            border:2px solid #ccc;
+            margin-right:10px;
+            background:#fff;
+            img{
+                width:100%;
+            }
+        }
+    }
+    .maizhbRp1+p{
+        height:32px;
+        line-height:32px;
+        padding-left:10px;
+        margin:27px 0;
+        span{
+            margin-right:25px;
+        }
+        a{
+            display:inline-block;
+            width:78px;
+            height:28px;
+            text-align: center;
+            line-height:28px;
+            border:2px solid #ddd;
+            margin-right:12px;
+        }
+    }
+    .maizhbRp3{
+        height:34px;
+        span{
+            display:inline-block;
+            margin-right:30px;
+            float:left;
+            margin-left:8px;
+        }
+        a{
+            display:inline-block;
+            width:36px;
+            height:30px;
+            text-align: center;
+            line-height:30px;
+            border:1px solid #ccc;
+            float:left;
+        }
+        input{
+            width:60px;
+            height:30px;
+            text-align: center;
+            line-height:30px;
+            border-top:1px solid #ccc;
+            border-bottom:1px solid #ccc;
+            float:left;
+        }
+    }
+    .maizhbRp4{
+        height:52px;
+        line-height:52px;
+        margin-top:35px;
+        a{
+            display:inline-block;
+            width:166px;
+            height:48px;
+            background:#f5f3ef;
+            border:1px solid #b4a078;
+            margin-right:10px;
+            text-align: center;
+            line-height:48px;
+            color:#b4a078;
+            float:left;
+        }
+        span{
+            display:inline-block;
+            height:48px;
+            width:48px;
+            float:left; 
+            text-align: center;
+            line-height:60px;
+            border:1px solid #ccc;
+            background:url("../imgmai/jujia(10).png") no-repeat center center;
+        }
+    }
+    .maizhbRp4>a:nth-child(2){
+        background:#b4a078;
+        color:#fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -578,6 +578,18 @@ body,html{width:100%;height:100%;}
             width:244px;
             margin-right:12px;
             float:left;
+            dt{
+                width:244px;
+                height:245px;
+                position:relative;
+                overflow:hidden;
+                img{
+                    position:absolute;
+                    left:0;
+                    top:0;
+                    width:244px;
+                }
+            }
             dd{
                 text-align: center;
                 i{
